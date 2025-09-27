@@ -1,0 +1,82 @@
+{
+  "sales_performance": {
+    "current_quarter": "Q3 2025",
+    "region": "Germany",
+    "products": [
+      {
+        "product_id": "ZOHO_CRM_ENTERPRISE",
+        "product_name": "Zoho CRM Enterprise",
+        "q3_sales": 145000,
+        "q2_sales": 132000,
+        "growth_rate": 9.8,
+        "target": 150000,
+        "achievement_percent": 96.7,
+        "key_customers": ["BMW Group", "SAP", "Volkswagen"],
+        "regional_breakdown": {
+          "Bavaria": 65000,
+          "North Rhine-Westphalia": 48000,
+          "Baden-Württemberg": 32000
+        }
+      },
+      {
+        "product_id": "ZOHO_WORKPLACE",
+        "product_name": "Zoho Workplace",
+        "q3_sales": 89000,
+        "q2_sales": 95000,
+        "growth_rate": -6.3,
+        "target": 100000,
+        "achievement_percent": 89.0,
+        "key_customers": ["Deutsche Bank", "Siemens", "Bosch"],
+        "regional_breakdown": {
+          "Bavaria": 35000,
+          "North Rhine-Westphalia": 28000,
+          "Baden-Württemberg": 26000
+        }
+      },
+      {
+        "product_id": "ZOHO_ANALYTICS",
+        "product_name": "Zoho Analytics", 
+        "q3_sales": 76000,
+        "q2_sales": 68000,
+        "growth_rate": 11.8,
+        "target": 80000,
+        "achievement_percent": 95.0,
+        "key_customers": ["Mercedes-Benz", "Lufthansa", "BASF"],
+        "regional_breakdown": {
+          "Bavaria": 28000,
+          "North Rhine-Westphalia": 25000,
+          "Baden-Württemberg": 23000
+        }
+      }
+    ],
+    "total_revenue": 310000,
+    "total_target": 330000,
+    "overall_achievement": 93.9
+  },
+  "market_insights": {
+    "trending_products": ["Zoho Analytics", "Zoho CRM Enterprise"],
+    "declining_products": ["Zoho Workplace"],
+    "competitive_pressure": [
+      {
+        "competitor": "Salesforce",
+        "impact_level": "high",
+        "products_affected": ["ZOHO_CRM_ENTERPRISE"]
+      },
+      {
+        "competitor": "Microsoft 365",
+        "impact_level": "medium", 
+        "products_affected": ["ZOHO_WORKPLACE"]
+      }
+    ],
+    "customer_feedback": {
+      "positive_themes": ["Easy integration", "Cost-effective", "Good support"],
+      "improvement_areas": ["Mobile app functionality", "Advanced reporting", "German localization"]
+    }
+  },
+  "forecast": {
+    "q4_projection": 340000,
+    "confidence_level": 0.78,
+    "risk_factors": ["Economic uncertainty", "Increased competition"],
+    "opportunities": ["Enterprise expansion", "New product launches"]
+  }
+}

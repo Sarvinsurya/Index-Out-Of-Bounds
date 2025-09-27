@@ -138,8 +138,8 @@ const HomePage = () => {
   return (
     <div className="dashboard">
       <div className="dashboard-header">
-        <h1>🤖 AI Meeting Buddy</h1>
-        <p>Welcome back, {user?.name || 'User'}! Here's your intelligent meeting dashboard.</p>
+        <h1> AI Meeting Buddy</h1>
+        <p>Welcome back, {user?.name || 'User'}!</p>
       </div>
 
       {/* AI Status Notification */}

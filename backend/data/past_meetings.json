@@ -1,0 +1,83 @@
+{
+  "meetings": [
+    {
+      "id": "meeting_001",
+      "date": "2025-08-15",
+      "participants": ["Zoho Chennai Team", "German Distributor"],
+      "duration": 60,
+      "topics_discussed": [
+        "Q3 Sales Performance Review",
+        "Product X Launch Strategy",
+        "Customer Feedback from Bavaria Region",
+        "Q4 Marketing Campaign Planning"
+      ],
+      "key_decisions": [
+        "Increase marketing budget for Product X by 20%",
+        "Focus on enterprise customers in Q4",
+        "Weekly sync calls during product launch"
+      ],
+      "action_items": [
+        {
+          "assignee": "German Team",
+          "task": "Provide detailed customer feedback report",
+          "due_date": "2025-08-30",
+          "status": "completed"
+        },
+        {
+          "assignee": "Chennai Team", 
+          "task": "Prepare Product X training materials",
+          "due_date": "2025-09-01",
+          "status": "completed"
+        },
+        {
+          "assignee": "German Team",
+          "task": "Share Q3 regional sales breakdown",
+          "due_date": "2025-09-15",
+          "status": "overdue"
+        }
+      ],
+      "sentiment": "positive",
+      "meeting_effectiveness": 8.5
+    },
+    {
+      "id": "meeting_002", 
+      "date": "2025-07-20",
+      "participants": ["Zoho Chennai Team", "German Distributor"],
+      "duration": 75,
+      "topics_discussed": [
+        "Mid-year performance review",
+        "Product roadmap discussion",
+        "Partnership expansion opportunities",
+        "Technical support issues"
+      ],
+      "key_decisions": [
+        "Expand partnership to Austria market",
+        "Implement new support ticketing system",
+        "Monthly technical training sessions"
+      ],
+      "action_items": [
+        {
+          "assignee": "Chennai Team",
+          "task": "Research Austria market requirements", 
+          "due_date": "2025-08-05",
+          "status": "completed"
+        },
+        {
+          "assignee": "German Team",
+          "task": "Set up support ticketing system",
+          "due_date": "2025-08-15", 
+          "status": "completed"
+        }
+      ],
+      "sentiment": "neutral",
+      "meeting_effectiveness": 7.2
+    }
+  ],
+  "relationship_metrics": {
+    "total_meetings": 15,
+    "average_effectiveness": 7.8,
+    "action_completion_rate": 0.82,
+    "trust_score": 8.4,
+    "partnership_duration_months": 18
+  }
+}
